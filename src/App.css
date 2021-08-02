@@ -20,3 +20,43 @@
     margin-top: 0;
 
 }
+
+/****************************header***********************************/
+.header-wrapper {
+    position: relative;
+    background: url(F:\Portfolio\src\components\figures\laptoppic.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 87vh;
+}
+
+.main-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.main-info h1 {
+    text-transform: capitalize;
+    margin-top: 200px;
+}
+
+/******************typed text*************/
+.typed-text {
+    font-size: 1.4rem;
+    color: rgb(32, 32, 32);
+}
+
+/******************main offer**************************/
+.btn-main-offer {
+    border: 1px solid;
+    color: rgb(255, 51, 0);
+    text-transform: uppercase;
+    border-radius: 0;
+    padding: 10px 12px 12px 12px;
+    margin: 10px;
+    background-color: black;
+
+}

@@ -2,6 +2,7 @@ import React from 'react'
 import { Nav, Navbar } from "react-bootstrap"
 import pic from "./figures/pic.jpg"
 
+
 function Topbar() {
     return (
         <>
@@ -11,10 +12,11 @@ function Topbar() {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ml-auto">
-                        <Nav.Link className="text-white" href="#home">Home</Nav.Link>
-                        <Nav.Link className="text-white" href="#about ">About </Nav.Link>
-                        <Nav.Link className="text-white" href="#experience">Work Experience</Nav.Link>
-                        <Nav.Link className="text-white" href="#contact">Contact </Nav.Link>
+                        <Nav.Link className="text-white" href="/home">Home</Nav.Link>
+                        <Nav.Link className="text-white" href="/portfolio">Portfolio</Nav.Link>
+                        <Nav.Link className="text-white" href="/work ">Work Experience </Nav.Link>
+                        <Nav.Link className="text-white" href="/testimonials">Testimonials</Nav.Link>
+                        <Nav.Link className="text-white" href="/contact">Contact </Nav.Link>
 
 
                     </Nav>
